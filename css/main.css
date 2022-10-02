@@ -13,3 +13,144 @@
 p {
     text-align: center;
 }
+.box {
+    width: 200px;
+    background: yellow;
+    margin: 10px;
+    padding: 10px; 
+    border: 4px dotted black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+    color: black;
+    box-shadow: 10px 10px black;
+}
+
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background: aquamarine;
+}
+
+.left-menu {
+    width: 20%;
+    height: 400px;
+    background: blue;
+    display: inline-block;
+    vertical-align: top;
+/*    float: left;*/
+}
+
+.right {
+    width: 80%;
+    height: 400px;
+    display: inline-block;
+    background: coral;
+    vertical-align: top;
+    margin-left: auto;
+    margin-right: auto;
+/*    float: left;*/
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+/*    clear: both;*/
+}
+
+.left-content {
+    width: 70%;
+    background-color: white;
+    float: left;
+}
+
+.photo {
+    width: 30%;
+    height: 50%;
+    background-color: white;
+    float: left;
+}
+
+.user {
+    width: 35%;
+    height: 30%;
+    display: inline-block;
+}
+
+.comment {
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+}
+
+.navbar>li>a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/shoes.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.main-content {
+    color: white;
+    font-size: 20px;
+}
+
+.button {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    position: relative;
+}
+
+.card {
+    width: 800px;
+    max-width: 600px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+    background: #eee;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -50px;
+}
