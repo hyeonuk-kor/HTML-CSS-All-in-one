@@ -1,8 +1,13 @@
+@font-face {
+    font-family : '';
+    src : url();
+}
 div, input, textarea {
     box-sizing: border-box;
 }
 body {
     margin: 0;
+    font-family: 'gulim'
 }
 .profile {
     width: 100px;
@@ -267,4 +272,16 @@ table {
 }
 .custom-link:visited {
     color: black;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin: 5px;
 }
