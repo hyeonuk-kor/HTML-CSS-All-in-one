@@ -1,3 +1,9 @@
+div, input, textarea {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
 .profile {
     width: 100px;
     display: block;
@@ -10,9 +16,6 @@
     font-size: 16px;
 }
 
-p {
-    text-align: center;
-}
 .box {
     width: 200px;
     background: yellow;
@@ -144,7 +147,7 @@ p {
 
 .card {
     width: 800px;
-    max-width: 600px;
+    max-width: 800px;
     height: 300px;
     text-align: center;
     padding: 10px;
@@ -153,4 +156,115 @@ p {
     margin-right: auto;
     position: relative;
     top: -50px;
+}
+
+.form-backgroudn {
+    background-color: black;
+    padding: 30px;
+}
+
+.form-white {
+    background-color: white;
+    padding: 30px;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.w-50 {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.w-100 {
+    padding: 10px;
+}
+
+
+
+.yellow-button {
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+}
+
+td, th {
+/*    border: 1px solid black;*/
+}
+.cart-table td, th {
+    padding: 15px;
+    border-bottom: 1px solid #c2d3de;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.cart-backtround {
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+.cart-table {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.cart-table th:nth-child(3) {
+    width: 400px;
+}
+
+.cell-long {
+    width: 100px;
+}
+
+.btn {
+    padding: 15ps;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    cursor: pointer
+}
+.btn:hover {
+    background-color: chocolate;
+}
+.btn:focus {
+    background-color: gray;
+}
+.btn:active{
+    background-color: brown;
+}
+
+.input-test {
+    font-size: 20px;
+}
+.input-test:focus {
+    border-bottom: 2px solid red;
+}
+
+.custom-link {
+    text-decoration: none;
+}
+.custom-link:link {
+    color: skyblue;
+}
+.custom-link:visited {
+    color: black;
 }
