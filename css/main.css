@@ -22,9 +22,8 @@ body {
 }
 
 .box {
-    width: 200px;
-    background: yellow;
-    margin: 10px;
+    flex-basis: 25%;
+    margin: 5px;
     padding: 10px; 
     border: 4px dotted black;
     border-radius: 5px;
@@ -284,4 +283,23 @@ table {
     height: 100px;
     background-color: grey;
     margin: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .box {
+        flex-basis: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .box{
+        flex-basis: 100%;
+    }
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
